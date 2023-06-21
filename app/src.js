@@ -15,7 +15,7 @@ app.use(express.json())
 app.use(cors())
 
 // Define a route to handle AI data
-app.get('', (req, res) => {
+app.get('/test', (req, res) => {
     // Your AI data processing logic here
     
     // Sample response data
