@@ -10,6 +10,6 @@ const server = http.createServer((req, res) => {
 })
 const app = require("./app/src")
 // app.listen(PORT , () => console.log(`http://localhost:${PORT}`))
-app.listen(PORT, hostname, () => {
-    console.log(`server running at http//${hostname}:${PORT}/`)
+app.listen(PORT, () => {
+    console.log(`server running at ${PORT}/`)
 });
